@@ -72,3 +72,40 @@ console.log(Object.entries(tinderUser));  // returns key and value pairs in [] a
 
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))  // true
+
+
+//++++++++++++++++++++++++++++++ object API talks +++++++++++++++++++++++++++
+
+// destructor of array
+
+const course = {
+    coursename: "js in hindi",
+    price: 999,
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+// console.log(course.courseInstructor);
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
+
+
+// const navbar = () => {
+
+// }
+
+// {
+//     name: "hitesh",
+//     coursename: "js in hindi",     // This is json {object}
+//     price: "free"
+// } 
+
+ [
+    {},
+    {},
+    {},
+    {}
+ ]
+
