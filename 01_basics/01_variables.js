@@ -1,19 +1,19 @@
-const account_id = 144553
-let account_email = "nishant@hotmail.com"
-var account_password = "12365"
-account_city = "Shimla"
-var account_state;
+const accountId = 4569;
+let accountEmail = "Nishant@gmail.com"
+var accountPassword = "123456"
+accountcity = "shimla"
 
-// account_id= 4545 Not allowed
- 
-account_email = "nothing@hotmail.com"
-account_password = "54545"
-account_city = "delhi"
- 
-/*
-Do not to use var
-because issue in block scope and function scope
+let accountState;  //undefined
+
+// accountId = 4545 not change because const is declare
+console.log(accountId);
+
+accountEmail = "hchc@gmail.com"
+accountPassword = "212121212121"
+accountcity = "dharamshala"
+
+console.table([accountId,accountEmail, accountPassword , accountcity, accountState])
+
+/* 
+prefer not to use var because of issue in block scope and function
 */
-
-console.log(account_id);
-console.table([account_id, account_email, account_password,account_city, account_state])
