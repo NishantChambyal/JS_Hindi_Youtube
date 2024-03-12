@@ -17,4 +17,5 @@ let g = Symbol // define uniqueness type
 
 // object
 
-console.log(typeof "nishant")
+console.log(typeof undefined)  // undefined 
+console.log(typeof null)  // object
