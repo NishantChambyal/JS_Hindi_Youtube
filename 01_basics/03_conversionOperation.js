@@ -69,13 +69,13 @@ console.log( (3 + 4) * 5 % 3);
 
 
 console.log(+true); // return 1 
-console.log(true+); // return error
+// console.log(true+); // return error
 console.log(+"");  // 0
   // do not write code like this
 
-  let num1 , num2 , num3
+  // let num1 , num2 , num3
 
-  num1 = num2 = num3 = 2+2  // dont write code like this
+  // num1 = num2 = num3 = 2+2  // dont write code like this
 
 
   let gameCounter = 100
